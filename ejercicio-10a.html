@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<header>
+<title>Encuesta satisfacción</title>
+</header>
+<body>
+<form method="encuesta" action="miservidor.php">
+	<div>
+		<label for="cp">Código Postal:</label>
+		<input id="cp" type="text">
+	</div>
+	<div>
+		<label for="satisfaccion">Nivel de satisfacción:</label>
+		<select id="satisfaccion">
+			<option value=" "></option>		
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+		</select>
+	</div>
+	<div>
+		<label for="correo">E-mail:</label>
+		<input id="correo" type="text">
+	</div>
+	<div>
+		<label for="positivos">Puntos positivos del producto:</label>
+		<textarea id="positivos"></textarea>
+	</div>
+	<div>
+		<label for="negativos">Puntos negativos del producto:</label>
+		<textarea id="negativos"></textarea>
+	</div>
+<p> Según su grado de satisfacción del producto, indiquenos que opinión tiene acerca de estas características del producto:</p>
+	<div>
+		<label for="calidad">Calidad:</label>
+		<select id="calidad">
+			<option value=" "></option>		
+			<option value="excelente">Excelente</option>
+			<option value="bueno">Bueno</option>
+			<option value="regular">Regular</option>
+			<option value="pesimo">Pésimo</option>
+		</select>
+	</div>
+	<div>
+		<label for="precio">Precio:</label>
+		<select id="precio">
+			<option value=" "></option>			
+			<option value="excelente">Excelente</option>
+			<option value="bueno">Bueno</option>
+			<option value="regular">Regular</option>
+			<option value="pesimo">Pésimo</option>
+		</select>	
+	</div>
+	<div>
+		<label for="comodidad">Comodidad:</label>
+		<select id="comodidad">
+			<option value=" "></option>		
+			<option value="excelente">Excelente</option>
+			<option value="bueno">Bueno</option>
+			<option value="regular">Regular</option>
+			<option value="pesimo">Pésimo</option>
+		</select>	
+	</div>
+	<div>
+		<label for="envio">Envio:</label>
+			<input name"envio" type="radio" value="E">Excelente
+			<input name"envio" type="radio" value="B">Bueno
+			<input name"envio" type="radio" value="R">Regular
+			<input name"envio" type="radio" value="P">Pésimo
+	</div>
+	<div>
+		<label for="resistencia">Resistencia:</label>
+			<input name"resistencia" type="radio" value="E">Excelente
+			<input name"resistencia" type="radio" value="B">Bueno
+			<input name"resistencia" type="radio" value="R">Regular
+			<input name"resistencia" type="radio" value="P">Pésimo
+	</div>
+	<div>
+		<label for="durabilidad">Durabilidad:</label>
+			<input name"durabilidad" type="radio" value="E">Excelente
+			<input name"durabilidad" type="radio" value="B">Bueno
+			<input name"durabilidad" type="radio" value="R">Regular
+			<input name"durabilidad" type="radio" value="P">Pésimo
+	</div>
+</body>
+</html>
